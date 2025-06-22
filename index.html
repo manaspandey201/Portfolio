@@ -3,76 +3,384 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manas Pandey | Web Developer & AI Enthusiast</title>
     <link rel="stylesheet" href="styles.css">
-    <title>Manas Pandey - Portfolio</title>
-    <!-- Font Awesome for Social Media Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Header -->
     <header>
         <nav>
-            <ul class="menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#skills">Skills</a></li>
-               
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#contact">Contact</a></li>
+            <div class="logo">MP</div>
+            <ul class="nav-links">
+                <li><a href="#hero"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#skills"><i class="fas fa-code"></i> Skills</a></li>
+                <li><a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
+                <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+                <li><a href="#certifications"><i class="fas fa-certificate"></i> Certifications</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
             </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </nav>
     </header>
 
-    <section id="home">
-        <h1>Manas Pandey</h1>
-        <p>Enthusiastic B.Tech CSE graduate specializing in web development.</p>
-        <a href="https://github.com/manaspandey201" target="_blank" class="button">Visit My GitHub</a>
-    </section>
-
-    <section id="about">
-        <h2>About Me</h2>
-        <img src="IMG_20220821_135824_117.JPG" alt="Manas Pandey" class="profile-img">
-        <p>
-            I am a Computer Science Engineering graduate from Babu Banarasi Das University, Lucknow. 
-            With a passion for web development, I have hands-on experience in HTML, CSS, JavaScript, and React.
-        </p>
-        <p>
-            I am looking to apply my skills in creating dynamic and responsive web applications in an entry-level web developer role.
-        </p>
-    </section>
-
-    <section id="skills">
-        <h2>Core Skills</h2>
-        <ul class="skills-list">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>C Programming</li>
-        </ul>
-    </section>
-
-   
-
-    <section id="resume">
-        <h2>Resume</h2>
-        <a href="Manas Pandey Resume(1) (1).pdf" download="Manas_Pandey_Resume.pdf" class="button">Download My Resume</a>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:manaspandey201@gmail.com">manaspandey201@gmail.com</a></p>
-        <p>Phone: +91 6392295112</p>
-        <div class="social-icons">
-            <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BaHIOWaBUS2CS5n1as%2FjPig%3D%3D" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="https://www.instagram.com/manaspandeyy/" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.facebook.com/profile.php?id=100010353905555" target="_blank"><i class="fab fa-facebook"></i></a>
-            <a href="https://api.whatsapp.com/send?phone=6392295112" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span>Manas Pandey</span></h1>
+            <h2>Web Developer & AI Enthusiast</h2>
+            <p>I create beautiful, functional websites and applications with cutting-edge technologies. Passionate about blending web development with generative AI to build innovative solutions.</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Hire Me</a>
+            </div>
         </div>
     </section>
 
+    <!-- About Section -->
+    <section id="about">
+        <div class="section-title">
+            <h2>About <span>Me</span></h2>
+        </div>
+        <div class="about-container">
+            <div class="about-img">
+                <img src="IMG_20220821_135824_117.JPG" alt="Manas Pandey">
+            </div>
+            <div class="about-text">
+                <h3>Web Developer with AI Skills</h3>
+                <p>I'm a Computer Science Engineering graduate specializing in web development with hands-on experience in modern technologies. I create beautiful, functional websites and applications that deliver real value.</p>
+                <p>With additional knowledge in Generative AI, I'm excited about the intersection of web technologies and artificial intelligence to create innovative solutions.</p>
+                
+                <div class="info-grid">
+                    <div class="info-item">
+                        <p>Name:</p>
+                        <p>Manas Pandey</p>
+                    </div>
+                    <div class="info-item">
+                        <p>Email:</p>
+                        <p>manaspandey201@gmail.com</p>
+                    </div>
+                    <div class="info-item">
+                        <p>Education:</p>
+                        <p>B.Tech in Computer Science</p>
+                    </div>
+                    <div class="info-item">
+                        <p>From:</p>
+                        <p>Lucknow, India</p>
+                    </div>
+                </div>
+                
+                <a href="Manas Pandey Resume-1.pdf" download class="btn btn-primary">Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="section-title">
+            <h2>My <span>Skills</span></h2>
+        </div>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3><i class="fas fa-laptop-code"></i> Frontend Development</h3>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>HTML5</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>CSS3</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>JavaScript</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>React</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 75%;"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skill-category">
+                <h3><i class="fas fa-code"></i> Programming</h3>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Java</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>C Programming</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skill-category">
+                <h3><i class="fas fa-robot"></i> AI & Others</h3>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Generative AI</span>
+                        <span>65%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 65%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Bootstrap</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Git</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 70%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="section-title">
+            <h2>My <span>Projects</span></h2>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="Screenshot 2025-05-14 235622.png" alt="YoursDoc Project">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="https://github.com/manaspandey201/YoursDoc" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>YoursDoc - Healthcare System</h3>
+                    <p>A comprehensive online healthcare management system with appointment scheduling, patient records, and doctor profiles.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">Express</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="Screenshot 2024-11-25 101647.png" alt="Weather Predictor">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Weather Predictor</h3>
+                    <p>Real-time weather forecasting application with location-based predictions and interactive UI.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">API Integration</span>
+                        <span class="tech-tag">CSS3</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="Math_programming_calc_figure_2_half_column_mobile.jpg" alt="Calculator">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Advanced Calculator</h3>
+                    <p>Feature-rich calculator with scientific functions, history tracking, and responsive design.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <div class="section-title">
+            <h2>My <span>Education</span></h2>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-date">2021 - 2025</div>
+                <div class="timeline-content">
+                    <h3>Bachelor of Technology (B.Tech)</h3>
+                    <h4>Computer Science Engineering</h4>
+                    <p>Babu Banarasi Das University, Lucknow</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2021</div>
+                <div class="timeline-content">
+                    <h3>XII CBSE Board</h3>
+                    <h4>Science Stream</h4>
+                    <p>Montfort Inter College, Mahanagar Lucknow - 79.0%</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2019</div>
+                <div class="timeline-content">
+                    <h3>X CBSE Board</h3>
+                    <h4>High School</h4>
+                    <p>Montfort Inter College, Mahanagar Lucknow - 82.4%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications">
+        <div class="section-title">
+            <h2>My <span>Certifications</span></h2>
+        </div>
+        <div class="certs-grid">
+            <div class="cert-card">
+                <h3>Generative AI Studio</h3>
+                <p>Simplilearn (Powered by Google Cloud)</p>
+            </div>
+            <div class="cert-card">
+                <h3>MERN Stack Training</h3>
+                <p>Ikigai</p>
+            </div>
+            <div class="cert-card">
+                <h3>Web Development Virtual Internship</h3>
+                <p>Codsoft</p>
+            </div>
+            <div class="cert-card">
+                <h3>CSS, JavaScript, and Bootstrap</h3>
+                <p>Udemy</p>
+            </div>
+            <div class="cert-card">
+                <h3>Project Management</h3>
+                <p>Udemy</p>
+            </div>
+            <div class="cert-card">
+                <h3>Soft Skills</h3>
+                <p>TCS iON</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="section-title">
+            <h2>Get In <span>Touch</span></h2>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h3>Email</h3>
+                        <a href="mailto:manaspandey201@gmail.com">manaspandey201@gmail.com</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h3>Phone</h3>
+                        <p>+91 6392295112</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h3>Location</h3>
+                        <p>Lucknow, India</p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/manas-pandey-17399b247" class="social-link" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/manaspandey201" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/manaspandeyy/" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=6392295112" class="social-link" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Manas Pandey. All rights reserved.</p>
+        <div class="footer-content">
+            <div class="footer-logo">MP</div>
+            <p class="footer-text">Building digital experiences that matter.</p>
+            <div class="footer-links">
+                <a href="#hero">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="copyright">
+                &copy; 2024 Manas Pandey. All rights reserved.
+            </div>
+        </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
- 
